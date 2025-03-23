@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_worker
+      - image: 880502554903.dkr.ecr.us-east-2.amazonaws.com/workerapp:latest
         name: worker
